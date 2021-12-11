@@ -1,0 +1,35 @@
+.section-portfolio{
+    // height: 100vh;
+    width: 100%;
+    padding-bottom: 1rem;
+    background-color: black;
+
+    &-content{
+        display: flex;
+        flex-direction: column;
+        // justify-content: center;
+        align-items: center;
+        color: white;
+        padding-top: 3rem;
+
+        h3{
+            color:gray;
+            font-size: 1rem;
+            font-weight: 300;
+        }
+        h1{
+            padding-top: .7rem;
+            font-size: 3rem;
+        }
+    }
+    .gallery{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 2rem 4rem;
+        img{
+            width: 370px;
+            padding-top: 2rem;
+        }
+    }
+}

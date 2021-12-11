@@ -1,0 +1,204 @@
+@include responsive($ipad-pro){
+ .header{
+     width: 100%;
+     background-size: cover;
+    .nav{
+        // display: none !important;
+        .logo{
+            display: none;
+        }
+    }
+    &-links{
+        .list-2{
+                font-size: .1rem !important;
+        }
+    }
+    &-heading{
+        font-size: 1.7rem;
+    }
+}
+.footer{
+    .main{
+        // background-color: red;
+        .form-1{
+            // background-color: yellow;
+            .input{
+                width: 44.5%;
+            }
+        }
+        .form-2{
+            // background-color: red;
+            .foter-2{
+                // background-color: yellow;
+                width: 80%;
+            }
+        }
+    }
+}
+}
+
+@include responsive($ipad){
+    .section-about{
+        &-content-2{
+            display: flex;
+            flex-wrap: wrap;
+            .about-img{
+                width: 600px !important;
+                // height: 300px;
+            }
+            .text{
+
+                .sub{
+                    font-size: 1.3rem;
+                    font-weight: 600;
+                }
+                .sub-p{
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+    .footer{
+        .main{
+            // background-color: red;
+            .form-1{
+                // background-color: yellow;
+                .input{
+                    width: 40%;
+                }
+                button{
+                    padding: .6rem 1rem;
+                    a{
+                        font-size: .8rem;
+                    }
+                }
+            }
+            .form-2{
+                // background-color: red;
+                .para{
+                    font-size: .8rem;
+                }
+                .foter-2{
+                    margin: -14rem 8rem;
+                    font-size: .6rem;
+                    // background-color: yellow;
+                    width: 80%;
+                    li{
+                        padding: 1.2rem 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include responsive($iphone-x){
+    .header{
+        width: 100%;
+        background-size: cover;
+       .nav{
+           .list{
+               font-size: .8rem;
+               li{
+                   padding: 1rem 0;
+                   margin-right: 40px;
+               }
+           }
+           .logo{
+               display: none;
+           }
+       }
+       &-links{
+           .list-2{
+               margin-top: -160px;
+               margin-right: -40px;
+            .icon{
+                padding: .6rem 0;
+                // font-size: 3rem;
+            }
+           }
+       }
+       &-heading{
+           font-size: 1rem;
+       }
+   }
+ 
+   .section-about{
+    &-content{
+        h3{
+            color:gray;
+            font-size: .7rem;
+            font-weight: 300;
+        }
+        h1{
+            padding-top: .7rem;
+            font-size: 2rem;
+            font-weight: 600;
+        }
+    }
+    &-content-2{
+        .about-img{
+            width: 500px !important;
+            height: 300px;
+            margin-left: -55px;
+        }
+        .text{
+            padding: 0%;
+            margin-left: -50px;
+            .sub{
+                font-size: .9rem;
+                font-weight: 400;
+            }
+            .sub-p{
+                font-size: .6rem;
+            }
+        }
+    }
+
+}
+
+.section-portfolio{
+    width: 100%;
+    .gallery{
+        img{
+            width: 100%;
+        }
+    }
+}
+
+.footer{
+    &-content{
+        h3{
+            font-size: .6rem;
+        }
+        h1{
+            font-size: 2rem;
+            font-weight: 600;
+        }
+    }
+    .main{
+        // background-color: red !important;
+        margin: 0%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        width: 100%;
+        .form-1{
+            width: 100%;
+            // background-color: yellow;
+            .input{
+                width: 43.5%;
+            }
+            button{
+                margin-left: 120px;
+                padding: .6rem 1rem;
+                a{
+                    font-size: .8rem;
+                }
+            }
+        }
+        .form-2{
+            display: none;
+        }
+    }
+}   
+}

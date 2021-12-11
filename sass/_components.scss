@@ -1,0 +1,12 @@
+// variables
+$ipad-pro:1024px;
+$ipad:768px;
+$iphone-x:375px;
+
+// mixin
+
+@mixin responsive($display) {
+    @media (max-width: $display) {
+        @content;
+    }    
+}

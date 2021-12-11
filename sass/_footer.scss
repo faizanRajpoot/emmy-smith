@@ -1,0 +1,114 @@
+.footer{
+    width: 100%;
+    // height: 100vh;
+    padding-bottom: .1rem;
+    background-color: rgba(0, 0, 0, 0.918);
+
+    &-content{
+        display: flex;
+        flex-direction: column;
+        // justify-content: center;
+        align-items: center;
+        color: white;
+        padding-top: 3rem;
+
+        h3{
+            color:gray;
+            font-size: 1rem;
+            font-weight: 300;
+        }
+        h1{
+            padding-top: .7rem;
+            font-size: 3rem;
+        }
+    }
+    .main{
+        display: flex;
+        margin: 3rem 7rem;
+        justify-content: space-between;
+        .form-1{
+            width: 50%;
+            // background-color: red;
+         .footer-heading{
+             font-size: 1.4rem;
+             color: white;
+             font-weight: 400;
+             margin-bottom: 1rem;
+         }
+         .input{
+             background-color: rgba(43, 40, 40, 0.808);
+             border: none;
+             width: 47%;
+             padding: 1rem 2rem;
+         }
+         .input-email{
+            background-color: rgba(43, 40, 40, 0.808);
+            border: none;
+            width: 47%;
+            margin-left: 31.1px;
+            padding: 1rem 2rem;
+         }
+         .input-subject{
+             width: 100%;
+             margin: 2rem 0;
+             background-color: rgba(43, 40, 40, 0.808);
+             border: none;
+             padding: 1rem 2rem;
+         }  
+         .input-message{
+            width: 100%;
+            margin-bottom: 2rem;
+            background-color: rgba(43, 40, 40, 0.808);
+            border: none;
+            height: 100px;
+            padding: 1rem 2rem;
+         } 
+         button{
+             background-color: #009e66;
+             border: none;
+             padding: 1rem 2rem;
+             border-radius: 50px;
+             a{
+                 color: white;
+                 text-decoration: none;
+                 font-size: 1rem;
+             }
+         }
+        }
+        .form-2{
+            width: 50%;
+            // background-color: red;
+            padding-left: 80px;
+            .footer-heading{
+                color: white;
+                font-weight: 400;
+                font-size: 1.4rem;
+            }
+            .para{
+                padding: 1rem 0;
+                color: gray;
+                font-size: 1rem;
+            }
+            .foter{
+                font-size: 1rem;
+                li{
+                    padding: 1rem 0;
+                    color: white;
+                    list-style: none;
+                }
+            }
+            .foter-2{
+                display: flex;
+                font-size: .9rem;
+                flex-direction: column;
+                // align-items: flex-end;
+                margin: -14.2rem 8rem;
+                li{
+                    padding: 1rem 0;
+                    color: gray;
+                    list-style: none;
+                }
+            }
+        }
+    }
+}
